@@ -32,55 +32,62 @@ public class User implements Serializable {
         return id;
     }
 
-    public void setId(String id) {
+    public User setId(String id) {
         this.id = id;
+        return this;
     }
 
     public String getAccount() {
         return account;
     }
 
-    public void setAccount(String account) {
+    public User setAccount(String account) {
         this.account = account;
+        return this;
     }
 
     public String getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
+    public User setPassword(String password) {
         this.password = password;
+        return this;
     }
 
     public String getUserName() {
         return userName;
     }
 
-    public void setUserName(String userName) {
+    public User setUserName(String userName) {
         this.userName = userName;
+        return this;
     }
 
     public String getMobile() {
         return mobile;
     }
 
-    public void setMobile(String mobile) {
+    public User setMobile(String mobile) {
         this.mobile = mobile;
+        return this;
     }
 
     public Integer getStatus() {
         return status;
     }
 
-    public void setStatus(Integer status) {
+    public User setStatus(Integer status) {
         this.status = status;
+        return this;
     }
 
     public Date getCreateTime() {
         return createTime;
     }
 
-    public void setCreateTime(Date createTime) {
+    public User setCreateTime(Date createTime) {
         this.createTime = createTime;
+        return this;
     }
 }
